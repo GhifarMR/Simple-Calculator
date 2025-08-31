@@ -258,11 +258,13 @@ public class Calculator extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnCActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCActionPerformed
-        numberShows.setText(number);
+
         num1 = 0.0;
         num2 = 0.0;
         total = 0.0;
         number = "";
+        numberShows.setText(number);
+        
     }//GEN-LAST:event_btnCActionPerformed
 
     private void btn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn1ActionPerformed
